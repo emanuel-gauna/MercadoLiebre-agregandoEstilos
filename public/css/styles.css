@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* variables */
+:root{
+   --yellow: #eac926;
+   --blue:#03264c;
+   --bluesky:#1259c3;
+   --grey: #666;
+   --grey-ligth:#ebebeb;
+   --green:#39b54a;
+
+/* fuentes */
+
+--roboto: 'roboto', sans-serif;
+
+/* tamaño tipografico */
+
+--parrafos: 12px;
+--titulos: 24px;
+--precio: 18px;
+--descuento: 16px;
+--descripcion: 16px; 
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: var(--roboto) ;
+    
+
+}
+a{
+    color:black ;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: var(--yellow);
+    
+    padding: 20px 0;
+}
+body{
+    background-color: var(--grey-ligth);
+}
+header div.logo{
+    width: 130px;
+    margin-left: 25px;
+}
+
+
+
+p{
+    font-size: var(--parrafos) ;
+}
+h4{
+    font-size: var(--descripcion);
+}
+article{
+    font-size: 18px;
+}
+header div.busqueda{
+    margin: 15px;
+    width: 170px;
+    margin-bottom: 10px;
+}
+header p{
+    font-size: var(--parrafos);
+    text-align: center;
+    margin-bottom: 15px;
+}
+header nav ul.lista-superior{
+    margin-bottom: 15px;
+
+}
+
+header nav ul li a{
+    font-size: var(--parrafos);
+}
+header div.burger-menu{
+    background-color: var(--bluesky);
+    border-radius: 5px;
+    color: white;
+    width: 15px;
+    padding: 7px;
+    margin: 25px auto 0;
+}
+footer{
+    padding: 50px 10px 10px  ;
+    background-color: white;
+}
+footer article{
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer article i{
+    font-size: 2em;
+    color:  var(--bluesky);
+    margin-bottom: 10px;
+}
+footer article h4{
+    font-size: var(--precio);
+    color: var(--bluesky);
+    margin-bottom: 10px;
+}
+footer span {
+    font-size:  var(--parrafos);
+}
+/* agregando media query para tablet //
+@media(min-width: 480px){
+    header{
+        background-color: var(--bluesky);
+    }
+}
+//media query para ordenador de escritorio //
+@media(min-width: 769px){
+
+} */
