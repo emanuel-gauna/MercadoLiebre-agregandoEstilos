@@ -4,9 +4,9 @@
 :root{
    --yellow: #eac926;
    --blue:#03264c;
-   --bluesky:#1259c3;
+   --blue-light:#1259c3;
    --grey: #666;
-   --grey-ligth:#ebebeb;
+   --grey-light:#ebebeb;
    --green:#39b54a;
 
 /* fuentes */
@@ -26,6 +26,8 @@
     margin: 0;
     padding: 0%;
     font-family: var(--roboto) ;
+    
+    
     
 
 }
@@ -79,7 +81,7 @@ header nav ul li a{
     font-size: var(--parrafos);
 }
 header div.burger-menu{
-    background-color: var(--bluesky);
+    background-color: var(--blue-light);
     border-radius: 5px;
     color: white;
     width: 15px;
@@ -96,24 +98,17 @@ footer article{
 }
 footer article i{
     font-size: 2em;
-    color:  var(--bluesky);
+    color:  var(--blue-light);
     margin-bottom: 10px;
 }
 footer article h4{
     font-size: var(--precio);
-    color: var(--bluesky);
+    color: var(--blue-light);
     margin-bottom: 10px;
 }
+footer article p{
+    font-size: var(--descripcion);
+}
 footer span {
-    font-size:  var(--parrafos);
+    font-size: var(--descripcion);
 }
-/* agregando media query para tablet //
-@media(min-width: 480px){
-    header{
-        background-color: var(--bluesky);
-    }
-}
-//media query para ordenador de escritorio //
-@media(min-width: 769px){
-
-} */
