@@ -39,12 +39,11 @@ li{
     list-style: none;
 }
 header{
-    background-color: var(--yellow);
-    
+    background-color: var(--yellow);8777777777
     padding: 20px 0;
 }
 body{
-    background-color: var(--grey-ligth);
+    background-color: var(--grey-light);
 }
 header div.logo{
     width: 130px;
